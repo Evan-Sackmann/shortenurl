@@ -1,9 +1,5 @@
 function ButtonSquare(props: { content: string }) {
-	return (
-		<div>
-			<button className="button-square">{props.content}</button>
-		</div>
-	)
+	return <button className="button-square">{props.content}</button>
 }
 
 export default ButtonSquare

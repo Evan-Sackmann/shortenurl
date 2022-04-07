@@ -13,7 +13,7 @@ export default function Statistics() {
 				<div className="icon-container">
 					<img className="icon-dark" src={iconBrand} alt="" />
 				</div>
-				<div>
+				<div className="statistics-card-content">
 					<h3>Brand Recognition</h3>
 					<p>
 						Boost your brand recognition with each click. Generic
@@ -26,7 +26,7 @@ export default function Statistics() {
 				<div className="icon-container">
 					<img className="icon-dark" src={iconDetailed} alt="" />
 				</div>
-				<div>
+				<div className="statistics-card-content">
 					<h3>Detailed Records</h3>
 					<p>
 						Gain insights into who is clicking your links. Knowing
@@ -39,7 +39,7 @@ export default function Statistics() {
 				<div className="icon-container">
 					<img className="icon-dark" src={iconCustomizable} alt="" />
 				</div>
-				<div>
+				<div className="statistics-card-content">
 					<h3>Fully Customizable</h3>
 					<p>
 						Improve brand awareness and content discoverability

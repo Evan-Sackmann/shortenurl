@@ -1,9 +1,5 @@
 function ButtonCircular(props: { content: string }) {
-	return (
-		<div>
-			<button className="button-circular">{props.content}</button>
-		</div>
-	)
+	return <button className="button-circular">{props.content}</button>
 }
 
 export default ButtonCircular
